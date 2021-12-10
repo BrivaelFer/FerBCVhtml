@@ -27,7 +27,7 @@ function clickedExp()
     }
     
 }
-function change(){
+/*function change(){
     //console.dir(document.querySelector('#hil'))
     if(pho == 0){
         document.querySelector('#hil').src = "https://encrypted-tbn0.gstatic.com/"+
@@ -39,7 +39,7 @@ function change(){
         "images/I/51AUfTQ3gmL._SX358_BO1,204,203,200_.jpg";
         pho = 0;
     }
-}
+}*/
 function clickedForm()
 {
     if(zoom == 0)
@@ -116,7 +116,7 @@ console.dir(document.querySelector('.left'))
 document.querySelector('.blockExp').addEventListener('click', clickedExp);
 document.querySelector('.blockForm').addEventListener('click', clickedForm);
 document.querySelector('.blockComp').addEventListener('click', clickedComp);
-document.querySelector('#hil').addEventListener('click', change);
+//document.querySelector('#hil').addEventListener('click', change);
 document.querySelector('.blockForm').addEventListener('mouseenter' , chanColoF)
 document.querySelector('.blockForm').addEventListener('mouseleave' , backColoF)
 document.querySelector('.blockExp').addEventListener('mouseenter' , chanColoE)
